@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MY PORTFOLIO | PARTH0</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#" class="nav__logo-link">
+          <span class="logo nav__logo" aria-label="Logo P">P</span> PARTHO
+        </a>
+        <button class="nav__menu__btn" id="menu-btn" aria-label="Toggle menu" aria-expanded="false">
+          <i class="ri-menu-3-line" aria-hidden="true"></i>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home" tabindex="0">Home</a></li>
+        <li><a href="#about" tabindex="0">About</a></li>
+        <li><a href="#service" tabindex="0">Projects</a></li>
+        <li><a href="#contact" class="btn" tabindex="0">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large" tabindex="0">Contact</a>
+    </nav>
+
+    <header class="section__container header__container" id="home" role="banner">
+      <div class="header__image" aria-hidden="true">
+        <img src="assets/header.jpg" alt="Partho Pratim Das" />
+      </div>
+      <div class="header__content">
+        <h1>PARTHO<br />PRATIM<br />DAS</h1>
+        <p class="section__description">Creative, Analytical, Adaptable</p>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about" aria-labelledby="about-header">
+      <div class="about__image" aria-hidden="true">
+        <img src="assets/about.jpg" alt="About Partho Pratim Das" />
+      </div>
+      <div class="about__content">
+        <h2 id="about-header" class="section__header">About Me</h2>
+        <p class="section__description">
+          I am a passionate Computer Science and Engineering student at Daffodil International University.
+          I have always been captivated by web development and have dedicated my career to mastering the intricacies of web development.
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service" aria-labelledby="projects-header">
+      <h2 id="projects-header" class="section__header">Projects</h2>
+      <div class="service__grid">
+        <article class="service__card">
+          <span aria-hidden="true"><i class="ri-window-fill"></i></span>
+          <h3>Mini Projects</h3>
+          <ol class="project-list">
+            <li>CV Builder (Web)</li>
+            <li>Store Management System (Web)</li>
+            <li>AI Chatbot (Web)</li>
+          </ol>
+        </article>
+        <article class="service__card">
+          <span aria-hidden="true"><i class="ri-store-line"></i></span>
+          <h3>Research Projects</h3>
+          <ol class="project-list">
+            <li>Skin Lesion Segmentation (Web - Flask)</li>
+            <li>Dengue Prediction</li>
+            <li>Bangla Newspaper Classification</li>
+          </ol>
+        </article>
+        <article class="service__card">
+          <span aria-hidden="true"><i class="ri-smartphone-line"></i></span>
+          <h3>Other Projects</h3>
+          <ol class="project-list">
+            <li>Tour Guide App (Mobile)</li>
+            <li>City View (Computer Graphics)</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact" aria-labelledby="contact-header">
+      <div class="logo" aria-hidden="true">P</div>
+      <h2 id="contact-header" class="section__header">Let's have a talk!</h2>
+      <p class="section__description">
+        An open invitation to connect, and exploring collaborative opportunities on my personal portfolio website.
+      </p>
+      <div class="contact__socials" role="list">
+        <a href="https://github.com/Partho4122" role="listitem" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+          <i class="ri-github-fill"></i>
+        </a>
+        <a href="https://www.facebook.com/pratim4122/" role="listitem" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+          <i class="ri-facebook-fill"></i>
+        </a>
+        <a href="https://www.instagram.com/partho.pratim99/" role="listitem" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+          <i class="ri-instagram-fill"></i>
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer" role="contentinfo">
+      &copy; 2023 Partho Pratim. All rights reserved.
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
